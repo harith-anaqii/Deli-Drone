@@ -12,7 +12,9 @@ https://github.com/harith-anaqii/Deli-Drone/assets/96841569/7ea8469b-20af-4f05-a
 
 
 # Proximity Warning System(PWS)
-The proximity warning system involves the ultrasonic sensor and the GPS Module. The ultrasonic sensor estimates the Altitude AGL (above ground level) which is the vertical distance between the drone and the ground meanwhile the GPS module estimates the altitude MSL (Mean Sea Level) which is the estimated vertical distance between the drone and the sea using satellites. The proximity warning system works by ** if the distance between the sensor and the ground is less than 30cm, then an alert will be raised by the PWS(an acronym for Proximity Warning System) to the webserver on 192.168.X.X **. Then it's up to the user to either ignore it (for landing) or avoid the ground. 
+The proximity warning system involves the ultrasonic sensor and the GPS Module. The ultrasonic sensor estimates the Altitude AGL (above ground level) which is the vertical distance between the drone and the ground meanwhile the GPS module estimates the altitude MSL (Mean Sea Level) which is the estimated vertical distance between the drone and the sea using satellites.
+The proximity warning system works by ** if the distance between the sensor and the ground is less than 30cm, then an alert will be raised by the PWS(an acronym for Proximity Warning System) to the webserver on 192.168.X.X **.
+Then it's up to the user to either ignore it (for landing) or avoid the ground. 
 
 
 
