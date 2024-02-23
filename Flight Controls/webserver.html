@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Control Board</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+</head>
+<body style="font-family: Cousine; align-items: center; background-color: black;" >
+    <span class="square" style="font-size: 30px; 
+position: absolute;
+top:10%;
+left:50%;
+transform: translate(-50%, -50%); color: white;"><p> DELI DRONE FLIGHT CONTROL BOARD (FCB)</span>
+<div style="border-color: white; height: 400px; width: 400px; background-color: black; border: 2px solid white; 
+position: absolute;
+top:230%;
+left:50%;
+transform: translate(-50%, -50%);">
+<div id="gauge-demo" class="gauge-container"></div>
+</div>  
+
+</body>
+<script src="dist/gauge.min.js"></script>
+<script>
+var myGauge = Gauge(document.getElementById("gauge-demo"));
+
+
+</script>
+</html>
