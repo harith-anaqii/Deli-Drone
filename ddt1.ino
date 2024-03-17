@@ -11,8 +11,8 @@ const char* password ="mrsm_student"; // Enter your WiFi password
 #define BUZZER_PIN 18
 #define SCREEN_WIDTH 128 // OLED display width, in pixels
 #define SCREEN_HEIGHT 32 // OLED display height, in pixels
-#define GPIO_TRIGGER 26
-#define GPIO_ECHO    25
+#define GPIO_TRIGGER 14
+#define GPIO_ECHO    27
 #define IN1 4
 #define IN2 23 
 #define IN3 5
